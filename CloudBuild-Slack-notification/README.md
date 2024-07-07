@@ -3,7 +3,7 @@
 This notifier uses [Slack Webhooks](https://api.slack.com/messaging/webhooks) to send notifications to your Slack workspace channel.
 
 This notifier runs as a container via Google Cloud Run For more detail about setting for this notifier, see [Configuring Slack notifications](https://cloud.google.com/cloud-build/docs/configuring-notifications/configure-slack).
-![Slack Notifier](CloudBuild-Slack.svg)
+![Slack Notifier](README/CloudBuild-Slack.jpg)
 ### Configuring Slack notifications
 
     You need correct right in Slack Workspace to create New Application
