@@ -29,7 +29,7 @@ This notifier runs as a container via Google Cloud Run For more detail about set
 ![choose channel](README/7.png)
 
     Don't forget copy and store Webhook URL as Secret  in GCP Secret Manager
-
+Store API-key to Secret Manager
 ```commandline
 echo -n "https://hooks.slack.com/services/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" | gcloud secrets create WEBHOOK_KEY --data-file=-
 ```
